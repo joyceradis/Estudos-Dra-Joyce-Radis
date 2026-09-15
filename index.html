@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f6f2">
+  <meta name="description" content="Joyce • Estudos — painel pessoal de preparação para residência médica.">
+  <title>Joyce • Estudos</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="brand-wrap">
+      <a class="brand" href="#hoje" aria-label="Joyce Estudos — início">
+        <span class="brand-mark" aria-hidden="true">J</span>
+        <span>JOYCE <span class="brand-dot">•</span> ESTUDOS</span>
+      </a>
+      <span class="today-date" id="today-date" aria-label="Data de hoje"></span>
+    </div>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a class="nav-link is-active" href="#hoje">Hoje</a>
+      <a class="nav-link" href="#desempenho">Desempenho</a>
+      <a class="nav-link" href="#atencao">Prioridades</a>
+      <a class="nav-link" href="#provas">Provas</a>
+      <a class="nav-link" href="#semana">Semana</a>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="app-shell">
+    <section id="hoje" class="hero section-anchor" aria-labelledby="greeting">
+      <div class="hero-copy">
+        <p class="eyebrow">HOJE</p>
+        <h1 id="greeting">Boa noite, Joyce.</h1>
+        <p class="hero-subtitle" id="hero-subtitle">Seu próximo passo de estudo aparece aqui.</p>
+      </div>
+
+      <article class="focus-panel" aria-labelledby="focus-title">
+        <div class="focus-heading">
+          <div>
+            <p class="section-kicker">PROVA EM ANDAMENTO</p>
+            <h2 id="focus-title">Carregando prova…</h2>
+          </div>
+          <span class="status-pill" id="focus-status">Em andamento</span>
+        </div>
+
+        <div class="focus-progress-copy">
+          <strong id="focus-progress-count">— / — questões</strong>
+          <span id="focus-progress-percent">—%</span>
+        </div>
+        <div class="progress-track" role="progressbar" aria-label="Progresso da prova" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span class="progress-fill" id="focus-progress-bar"></span>
+        </div>
+
+        <div class="focus-actions">
+          <a class="primary-action" id="continue-exam" href="#provas">Continuar prova <span aria-hidden="true">→</span></a>
+          <p class="microcopy" id="focus-note">O desempenho só aparece quando as respostas forem registradas.</p>
+        </div>
+      </article>
+
+      <div class="today-strip" aria-label="Resumo do dia">
+        <div class="today-stat">
+          <span class="today-stat-label">REVISAR HOJE</span>
+          <strong id="reviews-today">0</strong>
+          <span id="reviews-today-detail">nenhuma revisão cadastrada</span>
+        </div>
+        <div class="today-stat">
+          <span class="today-stat-label">QUESTÕES REGISTRADAS</span>
+          <strong id="questions-registered">0</strong>
+          <span>com resultado individual</span>
+        </div>
+        <div class="today-stat">
+          <span class="today-stat-label">FOCO ATUAL</span>
+          <strong id="current-focus">Prova</strong>
+          <span id="current-focus-detail">avance antes de abrir novas frentes</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="desempenho" class="content-section section-anchor" aria-labelledby="performance-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SEU DESEMPENHO</p>
+          <h2 id="performance-title">O que os seus dados mostram</h2>
+        </div>
+        <p class="section-note">Só entram aqui questões com acerto/erro registrado.</p>
+      </div>
+
+      <div class="performance-layout">
+        <div class="accuracy-block">
+          <span class="accuracy-value" id="overall-accuracy">—</span>
+          <span class="accuracy-label">ACERTO GERAL</span>
+          <p id="accuracy-caption">Ainda não há questões corrigidas suficientes para calcular sua taxa.</p>
+        </div>
+        <div class="area-list" id="area-performance" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="atencao" class="content-section section-anchor" aria-labelledby="attention-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ATENÇÃO AGORA</p>
+          <h2 id="attention-title">Prioridades calculadas</h2>
+        </div>
+        <p class="section-note">Recorrência, atraso e proximidade da revisão definem a ordem.</p>
+      </div>
+      <ol class="priority-list" id="priority-list" aria-live="polite"></ol>
+    </section>
+
+    <section id="provas" class="content-section section-anchor" aria-labelledby="exams-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PROVAS</p>
+          <h2 id="exams-title">Linha do tempo de simulados</h2>
+        </div>
+        <p class="section-note">Cada prova passa a alimentar desempenho, erros e revisões.</p>
+      </div>
+      <div class="exam-list" id="exam-list" aria-live="polite"></div>
+    </section>
+
+    <section id="semana" class="content-section section-anchor week-section" aria-labelledby="week-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SEMANA</p>
+          <h2 id="week-title">Seu mapa de estudo</h2>
+        </div>
+        <p class="section-note">Uma visão simples, inspirada na organização semanal que você usava no Notion.</p>
+      </div>
+      <div class="week-strip" id="week-strip" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <nav class="mobile-nav" aria-label="Navegação principal móvel">
+    <a class="mobile-nav-link is-active" href="#hoje"><span aria-hidden="true">⌂</span><span>Hoje</span></a>
+    <a class="mobile-nav-link" href="#desempenho"><span aria-hidden="true">↗</span><span>Desempenho</span></a>
+    <a class="mobile-nav-link" href="#atencao"><span aria-hidden="true">!</span><span>Prioridades</span></a>
+    <a class="mobile-nav-link" href="#provas"><span aria-hidden="true">≡</span><span>Provas</span></a>
+    <a class="mobile-nav-link" href="#semana"><span aria-hidden="true">□</span><span>Semana</span></a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
