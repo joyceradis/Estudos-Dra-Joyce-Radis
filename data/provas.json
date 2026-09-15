@@ -1,0 +1,16 @@
+[
+  {
+    "id": "enare-2026-tipo-1",
+    "name": "ENARE 2026",
+    "institution": "ENARE",
+    "year": 2026,
+    "totalQuestions": 100,
+    "answeredQuestions": 30,
+    "correctAnswers": null,
+    "wrongAnswers": null,
+    "status": "in_progress",
+    "startedAt": "2026-09-14",
+    "completedAt": null,
+    "notes": "Prova objetiva tipo 1. Progresso informado pela usuária até a questão 30."
+  }
+]
