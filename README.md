@@ -2,6 +2,20 @@
 
 **Plataforma longitudinal de preparação para residência médica orientada por desempenho, erros e revisão.**
 
+> **English:** Medical-residency training platform for performance analytics, error tracking and adaptive review.
+
+## O que este repositório demonstra
+
+| Competência | Evidência no projeto |
+| --- | --- |
+| Modelagem de dados | provas, questões, erros e revisões desacoplados da interface em JSON |
+| Analytics | métricas calculadas apenas sobre respostas explicitamente corrigidas |
+| Motor de priorização | recorrência, recência e atraso de revisão transformados em prioridade operacional |
+| Testes | suíte com Node.js para proteger regras de integridade e não regressão |
+| Product thinking | dashboard construído para responder “onde perco pontos?” e “o que estudar agora?”, não apenas exibir porcentagens |
+
+**Portfolio signal:** data modeling · analytics · JavaScript · rule engine · automated tests · adaptive learning product
+
 Este projeto transforma provas e simulados em um sistema pessoal de treinamento. Em vez de mostrar apenas uma porcentagem de acertos, a plataforma tenta responder quatro perguntas operacionais:
 
 1. Como estou indo?
