@@ -14,6 +14,18 @@ Este repositório demonstra análise de desempenho, rastreamento de erros e prio
 
 **Rastreabilidade:** [histórico do README](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis/commits/main/README.md) · [PRs](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis/pulls?q=is%3Apr). Referenciar PRs de origem somente quando identificáveis; caso contrário, usar commits.
 
+### Reaproveitamento acadêmico e acervo cognitivo
+
+A independência entre produtos **não** impede reaproveitamento de conteúdo e evidências. Dados corrigidos de provas, classificações de erros, revisões, temas e referências desta aplicação podem contribuir para o **acervo curado do Segundo Cérebro** e, quando houver proveniência, versionamento e validação, para o **modelo de aprendizagem da Constelação**.
+
+Três destinos diferentes devem permanecer distinguíveis:
+
+- **Acervo:** prova, questão, referência ou revisão catalogada; material existente **não prova domínio**.
+- **Nota de conhecimento:** formulação elaborada e relacionada à taxonomia do Segundo Cérebro, após curadoria.
+- **Evidência de aprendizagem:** resposta corrigida, confiança e histórico de revisão que o modelo da Constelação consiga interpretar sem duplicar a mesma tentativa.
+
+**Estado real:** esta interoperação ainda não é automática. Não se deve importar cada questão como uma nota assimilada, reproduzir provas protegidas em repositório público nem atualizar os indicadores da Constelação por simples presença do material. As regras do modelo permanecem no Segundo Cérebro e exigem verificação antes de integrar fontes novas.
+
 ## O que este repositório demonstra
 
 | Competência | Evidência no projeto |
