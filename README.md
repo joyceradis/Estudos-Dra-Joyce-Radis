@@ -4,6 +4,16 @@
 
 > **English:** Medical-residency training platform for performance analytics, error tracking and adaptive review.
 
+## Papel no ecossistema Radis
+
+**Joyce · Estudos é um produto independente de análise de aprendizagem.** O valor deste repositório está nas regras de desempenho, classificação de erros e priorização das revisões. Ele **não** é a interface central da Radis nem a fonte canônica das tentativas geradas no sistema acadêmico mais recente.
+
+**Integração planejada:** comparar e, se tecnicamente pertinente, reaproveitar módulos de analytics sobre **resultados corrigidos** do Medical Residency Programs. A Radis pode oferecer a entrada unificada, mas não deve criar uma segunda base de tentativas ou apresentar integrações ainda não implementadas como concluídas.
+
+**Situação:** implementação anterior preservada para evolução e reuso, com código e histórico próprios. A incorporação desses módulos ainda depende de análise de contratos e testes de regressão.
+
+**Rastreabilidade:** [histórico deste README](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis/commits/main/README.md) · [PRs do repositório](https://github.com/joyceradis/Estudos-Dra-Joyce-Radis/pulls?q=is%3Apr). Quando não houver PR de origem identificável, usar o histórico de commits em vez de atribuir um PR inexistente.
+
 ## O que este repositório demonstra
 
 | Competência | Evidência no projeto |
