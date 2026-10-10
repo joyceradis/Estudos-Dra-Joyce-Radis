@@ -26,6 +26,17 @@ Três destinos diferentes devem permanecer distinguíveis:
 
 **Estado real:** esta interoperação ainda não é automática. Não se deve importar cada questão como uma nota assimilada, reproduzir provas protegidas em repositório público nem atualizar os indicadores da Constelação por simples presença do material. As regras do modelo permanecem no Segundo Cérebro e exigem verificação antes de integrar fontes novas.
 
+## Encontrar componentes existentes
+
+| Necessidade | Arquivo de referência |
+|---|---|
+| Cálculo de desempenho e analytics | [`js/analytics.js`](js/analytics.js) |
+| Priorização de estudo e revisão | [`js/study-engine.js`](js/study-engine.js) |
+| Interface e navegação | [`js/app.js`](js/app.js) · [página de desempenho](desempenho.html) · [revisões](revisoes.html) |
+| Prova de regressão | [`tests/analytics.test.mjs`](tests/analytics.test.mjs) · [`tests/study-engine.test.mjs`](tests/study-engine.test.mjs) |
+
+**Reuso:** estudar os contratos e dados antes de adaptar. O acervo e os resultados corrigidos podem contribuir para o Segundo Cérebro; a presença do material não representa assimilação automática na Constelação.
+
 ## O que este repositório demonstra
 
 | Competência | Evidência no projeto |
