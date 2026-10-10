@@ -37,6 +37,21 @@ Três destinos diferentes devem permanecer distinguíveis:
 
 **Reuso:** estudar os contratos e dados antes de adaptar. O acervo e os resultados corrigidos podem contribuir para o Segundo Cérebro; a presença do material não representa assimilação automática na Constelação.
 
+### Diagrama de orientação · Analytics de estudo
+
+```mermaid
+flowchart LR
+  E["RESULTADOS CORRIGIDOS"] --> A["ANALYTICS"]
+  A --> F["TIPOS DE ERRO E DESEMPENHO"]
+  F --> V["PRIORIDADES DE REVISÃO"]
+  V -. "reuso potencial, mediante validação" .-> C["SEGUNDO CÉREBRO · ACERVO/EVIDÊNCIAS"]
+  classDef source fill:#eff5f2,stroke:#88ab94,color:#263d33;
+  classDef outcome fill:#f4f0fa,stroke:#aa98c5,color:#3e3556;
+  class P,E,O,D,R source;
+```
+
+**Leitura:** setas contínuas representam o fluxo conceitual dentro do produto; setas pontilhadas indicam relação entre sistemas ou possibilidade futura, **não integração implementada**.
+
 ## O que este repositório demonstra
 
 | Competência | Evidência no projeto |
